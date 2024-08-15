@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Search App</title>
+    <link rel="stylesheet" href="styles.css" id="theme-link">
+</head>
+
+<body>
+    <header>
+        <img src="https://en.wikipedia.org/static/images/icons/wikipedia.png"
+            alt="Wikipedia Logo" id="wiki-logo">
+        <h1>Wikipedia Search App</h1>
+    </header>
+    <main>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search Wikipedia...">
+            <button type="submit">Search</button>
+        </form>
+        <div id="settings">
+            <label for="theme-select">Theme:</label>
+            <select id="theme-select">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
+
+            <label for="line-select">Line Spacing:</label>
+            <select id="line-select">
+                <option value="normal">Normal</option>
+                <option value="wide">Wide</option>
+            </select>
+        </div>
+        <div id="results"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
