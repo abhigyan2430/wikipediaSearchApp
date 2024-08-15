@@ -24,7 +24,7 @@ To run the app locally, follow these steps:
 #Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/wikipedia-search-app.git
+git clone https://github.com/abhigyan2430/wikipediaSearchApp.git
 Navigate to the project directory:
 bash
 Copy code
